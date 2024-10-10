@@ -7,9 +7,6 @@
     width: 100%;
 }
 
-.form {
-    position: relative;
-}
 
 .inp {
     margin-top: 10px;
@@ -30,9 +27,8 @@ input[type=email] {
 }
 
 .form button {
-    position: absolute;
-    right: 0;
-    bottom: -50px;
+    float: right;
+    margin-top: 12px;
     background-color: #6e54fa;
     color: #fff;
     padding: 10px 20px;
