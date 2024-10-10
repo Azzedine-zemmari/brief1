@@ -49,3 +49,21 @@ form button:hover {
     */
     box-shadow: 5px 10px 18px #bcb2f9;
 }
+
+/* media query for small screens (small then 540px) */
+@media (max-width:540px) {
+
+    .inp input[type=text],
+    input[type=email] {
+        width: 300px;
+        padding: 3px 0;
+    }
+}
+
+@media (max-width:335px) {
+
+    .inp input[type=text],
+    input[type=email] {
+        width: 230px;
+    }
+}
