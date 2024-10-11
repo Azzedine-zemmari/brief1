@@ -15,15 +15,37 @@
     gap: 12px;
 }
 
+.inp label{
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-family: 'Paytone One', sans-serif;
+    color: #5a7184;
+}
+
 .inp input[type=text],
 input[type=email] {
     width: 500px;
-    padding: 6px 0;
+    padding: 10px 20px;
+    color:#6e54fa;
+    font-size: 18px;
 }
+
+.inp input , .inp textarea{
+    border-radius: 10px;
+    border-color: #6e54fa;
+}
+
+/* .inp input:focus , .inp textarea:focus{
+    background-color: #bcb2f9;
+    outline: none;
+    border: white;
+} */
 
 .inp textarea {
     resize: none;
     padding: 20px;
+    color: #6e54fa;
 }
 
 .form button {
@@ -52,7 +74,6 @@ input[type=email] {
     .inp input[type=text],
     input[type=email] {
         width: 300px;
-        padding: 3px 0;
     }
 }
 
