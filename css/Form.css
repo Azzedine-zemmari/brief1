@@ -7,7 +7,6 @@
     width: 100%;
 }
 
-
 .inp {
     margin-top: 10px;
     display: flex;
@@ -15,23 +14,24 @@
     gap: 12px;
 }
 
-.inp label{
+.inp label {
     font-size: 18px;
     text-decoration: underline;
     text-underline-offset: 8px;
-    font-family: 'Paytone One', sans-serif;
+    font-family: "Paytone One", sans-serif;
     color: #5a7184;
 }
 
-.inp input[type=text],
-input[type=email] {
+.inp input[type="text"],
+input[type="email"] {
     width: 500px;
     padding: 10px 20px;
-    color:#6e54fa;
+    color: #6e54fa;
     font-size: 18px;
 }
 
-.inp input , .inp textarea{
+.inp input,
+.inp textarea {
     border-radius: 10px;
     border-color: #6e54fa;
 }
@@ -69,18 +69,18 @@ input[type=email] {
 }
 
 /* media query for small screens (small then 540px) */
-@media (max-width:540px) {
+@media (max-width: 540px) {
 
-    .inp input[type=text],
-    input[type=email] {
+    .inp input[type="text"],
+    input[type="email"] {
         width: 300px;
     }
 }
 
-@media (max-width:335px) {
+@media (max-width: 335px) {
 
-    .inp input[type=text],
-    input[type=email] {
+    .inp input[type="text"],
+    input[type="email"] {
         width: 230px;
     }
 }
